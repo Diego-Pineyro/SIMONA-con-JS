@@ -1,4 +1,13 @@
-
+#Logo-LINIAFE {
+    width: 80px;
+    height: 80px;
+    margin-right: 30px;   
+}
+#ImagenSimona {
+    width: 180px;
+    height: 180px;
+    margin-right: 30px;
+}
 body {
     font-family: 'Roboto', sans-serif; 
     margin: 1%; 
@@ -54,8 +63,19 @@ h2{
     margin: 2% 5% 5% 5%;
 
 }
+.contenedor-imagen-parrafo {
+    display: flex;
+}
+.imagimagenSimona {
+    display: flex: 1;
+}
 
+.parrafo-boton {
+    display: flex: 1;
+}
 
+@media (max-width: 768px){.contenedor-imagen-parrafo {flex-direction: column;}
+}
 .boton {
     padding: 10px 20px;
     background-color:#037F8C;
@@ -63,6 +83,7 @@ h2{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    align-items: center;
   }
 
 .boton:hover {
