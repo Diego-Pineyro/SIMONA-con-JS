@@ -93,7 +93,7 @@ h2{
 footer {
     display: flex;
     color: white;
-    font-size: 12px;
+    font-size: 8px;
     justify-content: space-around;
     align-items: flex-start;
     background-color:#037F8C;
