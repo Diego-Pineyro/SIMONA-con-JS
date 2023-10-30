@@ -9,7 +9,7 @@ function mostrarPregunta(indice) {
       pregunta.style.display = 'none';
     }
   });
-}
+} 
 
 function siguientePregunta() {
   const opcionSeleccionada = document.querySelector(`input[name=q${indicePreguntaActual + 1}]:checked`);
