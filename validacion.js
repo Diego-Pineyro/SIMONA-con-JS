@@ -20,7 +20,7 @@ const form = document.getElementById('miFormulario');
     }
     else {
         alert ('El mensaje fue enviado correctamente');
-        event.preventDefault();
+        //event.preventDefault();
     }
   });
 
