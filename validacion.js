@@ -9,7 +9,7 @@ const form = document.getElementById('miFormulario');
 
       if (email !== confirmEmailField) {
         
-          alert('Los correos electrónicos no coinciden. Por favor, verifique.');
+          alert('Los correos electrónicos no coinciden. Por favor, verificá la información ingresada.');
           return false; 
       }
           return true;
@@ -23,4 +23,3 @@ const form = document.getElementById('miFormulario');
         //event.preventDefault();
     }
   });
-
