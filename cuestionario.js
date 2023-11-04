@@ -80,7 +80,7 @@ function siguientePregunta() {
       }
   }
 }
-/*------------------------CON ESTO CONTROLO cuando ATRAS *******----------------
+/*------------------------CON ESTO CONTROLO cuando ATRAS *******----------------*/
 var atras1=0
 var atras2=0
 function preguntaAnterior() {
@@ -105,5 +105,5 @@ function preguntaAnterior() {
 }
 
 
-*/
+
 mostrarPregunta(indicePreguntaActual);
